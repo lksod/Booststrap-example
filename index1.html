@@ -1,0 +1,218 @@
+<!doctype html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SITE</title>
+ 
+	<meta charset="utf-8"> <!-- incluido a linguagem correta no javascript (para não bugar os acentos)-->
+
+	<link href="public/css/bootstrap.min.css" rel="stylesheet" type="css">
+	<!--<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css"> -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-lg bg-danger navbar-light"> <!-- navbar, é quem coloca uma barra superior com informações como barra de pesquisar etc, bg-..., é o fundo do navbar, navbar-..., é a cor das letras, fixed-top trava o navbar no top  -->
+		<a href="#" class="navbar-brand"> <img src="img/logo.png" width="50px" height="70px" class="d-inline-block align-top" > </a> <!-- navbar-brand formata a palavra -->
+
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" > <!--botão que aparece quando a pagina diminui-->
+    		<span class="navbar-toggler-icon"></span> <!-- ícone do botao ... nao funcionou nao sei pq -->
+  		</button>
+		<!-- Links -->
+
+		<div id="menu" class="collapse navbar-collapse"> <!--Class informa que a div vai ser em formato menu do topo-->
+			<ul class="navbar-nav ml-md-auto"> <!-- formata as informaçes para que fiquem alinhadas dentro do nav-bar  <ul>, é onde vai conter os links-->
+				<li class="nav-item active"> <!-- class que identifica o tipo de informação está inserindo no navebar <li>, onde os links serão inseridos por meio do <a> -->
+					<a class="nav-link" href="#">Home</a>
+				</li>
+
+				<li class="nav-item"> 
+					<a class="nav-link" href="#">Serviços</a>
+				</li>
+
+				<li class="nav-item"> 
+					<a class="nav-link" href="#">contatos</a>
+				</li>
+
+				<li class="nav-item"> 
+					<a class="nav-link" href="#" id="menu_dropdown" data-toggle="dropdown" aria-haspopup="false">sites</a>
+
+					<div class="dropdown-menu">
+						<a href="https://www.youtube.com" class="dropdown-item">Youtube</a>
+						
+					</div>
+				</li>
+
+				<form class="form-inline"> <!-- criando caixa de texto -->
+					<div class="input-group">
+						<input type="text" name="buscar" placeholder="buscar" class="form-control">
+						<input type="submit" class="btn btn-dark input-group-append">
+					</div>
+				</form>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="jumbotron jumbotron" style="margin-top: 30px">
+		<div class="container-fluid" >
+			<h1 class="diplay-4">Meu site</h1>
+			<p>Site denvolvido para treino e aplicaçao de métodos.</p>
+			<hr>
+			<a href="#" class="btn btn-primary">Clique e saiba mais!</a>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-3">
+				<div class="card border border-danger">
+					<img src="img/logo.png" class="card-img-top">
+					<div class="card-body">	
+						<h5 class="card-title">Coisas a Venda 1</h5>
+						<p>bláblábláblábláblá</p>
+						<a href="#" class="btn btn-primary">Saiba mais!</a>	
+					</div>
+				</div>
+			</div>
+
+			<div class="col-3">
+				<div class="card border border-danger">
+					<img src="img/logo.png" class="card-img-top">
+					<div class="card-body">	
+						<h5 class="card-title">Coisas a Venda 2</h5>
+						<p>bláblábláblábláblá</p>
+						<a href="#" class="btn btn-primary">Saiba mais!</a>	
+					</div>
+				</div>
+			</div>
+
+			<div class="col-3">
+				<div class="card border border-danger">
+					<img src="img/logo.png" class="card-img-top">
+					<div class="card-body">	
+						<h5 class="card-title">Coisas a Venda 3</h5>
+						<p>bláblábláblábláblá</p>
+						<a href="#" class="btn btn-primary">Saiba mais!</a>	
+					</div>
+				</div>
+			</div>
+			<div class="col-3">
+				<div class="card border border-danger">
+					<img src="img/logo.png" class="card-img-top">
+					<div class="card-body">	
+						<h5 class="card-title">Coisas a Venda 4</h5>
+						<p>bláblábláblábláblá</p>
+						<a href="#" class="btn btn-primary">Saiba mais!</a>	
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<br><hr class="bg-danger"><br>
+
+		<div class="row">
+			<div class="col-3">
+				<div class="card border border-danger">
+					<img src="img/logo.png" class="card-img-top">
+					<div class="card-body">	
+						<h5 class="card-title">Coisas a Venda 5</h5>
+						<p>bláblábláblábláblá</p>
+						<a href="#" class="btn btn-primary">Saiba mais!</a>	
+					</div>
+				</div>
+			</div>
+
+			<div class="col-3">
+				<div class="card border border-danger">
+					<img src="img/logo.png" class="card-img-top">
+					<div class="card-body">	
+						<h5 class="card-title">Coisas a Venda 6</h5>
+						<p>bláblábláblábláblá</p>
+						<a href="#" class="btn btn-primary">Saiba mais!</a>	
+					</div>
+				</div>
+			</div>
+
+			<div class="col-3">
+				<div class="card border border-danger">
+					<img src="img/logo.png" class="card-img-top">
+					<div class="card-body">	
+						<h5 class="card-title">Coisas a Venda 7</h5>
+						<p>bláblábláblábláblá</p>
+						<a href="#" class="btn btn-primary">Saiba mais!</a>	
+					</div>
+				</div>
+			</div>
+			<div class="col-3">
+				<div class="card border border-danger">
+					<img src="img/logo.png" class="card-img-top">
+					<div class="card-body">	
+						<h5 class="card-title">Coisas a Venda 8</h5>
+						<p>bláblábláblábláblá</p>
+						<a href="#" class="btn btn-primary">Saiba mais!</a>	
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<br><hr class="bg-danger"><br>
+
+		<div class="row">
+			<div class="col-3">
+				<div class="card border border-danger">
+					<img src="img/logo.png" class="card-img-top">
+					<div class="card-body">	
+						<h5 class="card-title">Coisas a Venda 9</h5>
+						<p>bláblábláblábláblá</p>
+						<a href="#" class="btn btn-primary">Saiba mais!</a>	
+					</div>
+				</div>
+			</div>
+
+			<div class="col-3">
+				<div class="card border border-danger">
+					<img src="img/logo.png" class="card-img-top">
+					<div class="card-body">	
+						<h5 class="card-title">Coisas a Venda 10</h5>
+						<p>bláblábláblábláblá</p>
+						<a href="#" class="btn btn-primary">Saiba mais!</a>	
+					</div>
+				</div>
+			</div>
+
+			<div class="col-3">
+				<div class="card border border-danger">
+					<img src="img/logo.png" class="card-img-top">
+					<div class="card-body">	
+						<h5 class="card-title">Coisas a Venda 11</h5>
+						<p>bláblábláblábláblá</p>
+						<a href="#" class="btn btn-primary">Saiba mais!</a>	
+					</div>
+				</div>
+			</div>
+			<div class="col-3">
+				<div class="card border border-danger">
+					<img src="img/logo.png" class="card-img-top">
+					<div class="card-body">	
+						<h5 class="card-title">Coisas a Venda 12</h5>
+						<p>bláblábláblábláblá</p>
+						<a href="#" class="btn btn-primary">Saiba mais!</a>	
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<div>
+			<p><strong>Desengolvido por Lucas</strong></p>
+		</div>
+
+		<!--JS-->
+		<script src="public/js/jquery.js.js" type="script"></script>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous" type="script"></script>
+	</footer>	
+
+</body>
+</html>
